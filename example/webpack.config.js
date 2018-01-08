@@ -23,10 +23,12 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel-loader',
       exclude: /node_modulesf/,
+      query: { compact: false },
     }, {
       test: /\.jsx$/,
       loader: 'babel-loader',
       exclude: /node_modules/,
+      query: { compact: false },
     }, {
       test: /\.css$/,
       use: ['style-loader', 'css-loader'],

@@ -1,6 +1,6 @@
 {
   "name": "ant-form",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "use json data to create auto bind ant form",
   "main": "dist/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.6.3",
     "babel-plugin-minify-simplify": "^0.2.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",

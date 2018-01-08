@@ -19,7 +19,7 @@ class ExamplePage extends Component {
           props: {
             type: 'primary',
             htmlType: 'submit',
-            size: 'large',
+            size: 'default',
           },
           text: '查询',
         }],

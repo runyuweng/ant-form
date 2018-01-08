@@ -42,7 +42,7 @@ class AntForm extends Component {
         {!formConfig.buttons
           ? (
             <FormItem wrapperCol={{ span: 4, offset: 4 }}>
-              <Button type="primary" htmlType="submit" size="large">提交</Button>
+              <Button type="primary" htmlType="submit" size="default">提交</Button>
             </FormItem>
           ) : (
             <FormItem {...formConfig.buttons.props}>

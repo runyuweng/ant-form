@@ -1,5 +1,8 @@
 {
-  "plugins": ["minify-simplify"],
+  "plugins": [
+    "minify-simplify",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ],
   "presets": [
     "es2015",
     "stage-0",
